@@ -1,0 +1,21 @@
+<h1>Autobuses</h1>
+
+<table>
+  <tr>
+    <th>Matricula</th>
+
+    <th>Fecha Fabricacion</th>
+
+    <th>Visitas</th>
+
+    
+  </tr>
+
+  <tr *ngFor="let elemento of autobuses">
+    <td>{{ elemento.matricula }}</td>
+
+    <td>{{ elemento.aFabricacion }}</td> 
+
+    
+  </tr>
+</table>
